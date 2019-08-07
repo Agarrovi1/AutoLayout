@@ -19,42 +19,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcg-uR-i51" userLabel="Teal1">
-                                <rect key="frame" x="0.0" y="44" width="208" height="208"/>
-                                <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saN-bR-W7j" userLabel="Purple">
-                                <rect key="frame" x="206" y="44" width="208" height="818"/>
-                                <color key="backgroundColor" red="0.68044549229999995" green="0.1578680277" blue="0.84710609910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-aR-PEn" userLabel="Teal2">
-                                <rect key="frame" x="0.0" y="355" width="208" height="196"/>
+                                <rect key="frame" x="0.0" y="246" width="414" height="414"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saN-bR-W7j" userLabel="Purple">
+                                        <rect key="frame" x="101" y="101" width="212" height="212"/>
+                                        <color key="backgroundColor" red="0.68044549229999995" green="0.1578680277" blue="0.84710609910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="208" id="MZX-XK-Zbd"/>
+                                    <constraint firstItem="saN-bR-W7j" firstAttribute="centerX" secondItem="Tcg-uR-i51" secondAttribute="centerX" id="0f6-al-zGY"/>
+                                    <constraint firstItem="saN-bR-W7j" firstAttribute="centerY" secondItem="Tcg-uR-i51" secondAttribute="centerY" id="ANf-2L-DIe"/>
+                                    <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="Tcg-uR-i51" secondAttribute="leading" constant="101" id="BMc-fc-lCy"/>
+                                    <constraint firstItem="saN-bR-W7j" firstAttribute="top" secondItem="Tcg-uR-i51" secondAttribute="top" constant="101" id="VIt-1X-186"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZwY-TK-3Sv" userLabel="Teal3">
-                                <rect key="frame" x="0.0" y="654" width="208" height="208"/>
-                                <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Tcg-uR-i51" secondAttribute="bottom" constant="644" id="0gh-RQ-ng8"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="top" secondItem="saN-bR-W7j" secondAttribute="top" id="785-cP-bLE"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="206" id="FNK-Ga-wle"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qwd-tW-llu"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="trailing" secondItem="ZwY-TK-3Sv" secondAttribute="trailing" id="Ue4-IE-FKd"/>
-                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="654" id="fmT-bL-BUJ"/>
-                            <constraint firstItem="MDP-aR-PEn" firstAttribute="top" secondItem="Tcg-uR-i51" secondAttribute="bottom" constant="103" id="gwW-rk-MTN"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="trailing" secondItem="MDP-aR-PEn" secondAttribute="trailing" id="jkO-ZY-rJM"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jrS-OL-TUR"/>
-                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="loF-td-4Oa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="saN-bR-W7j" secondAttribute="bottom" id="mO2-Pn-GpX"/>
-                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="top" secondItem="MDP-aR-PEn" secondAttribute="bottom" constant="103" id="oJN-9h-9FQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="saN-bR-W7j" secondAttribute="trailing" id="ozX-yN-tae"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="MDP-aR-PEn" secondAttribute="leading" id="p8G-EQ-bot"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="ZwY-TK-3Sv" secondAttribute="leading" id="tLX-8o-Llu"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LO3-ZT-t5o"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="S7F-6E-UQh"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="dcl-k0-iqj"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vEY-zL-CXW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
