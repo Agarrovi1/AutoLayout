@@ -18,31 +18,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcg-uR-i51" userLabel="Teal">
-                                <rect key="frame" x="0.0" y="44" width="414" height="404"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcg-uR-i51" userLabel="Teal1">
+                                <rect key="frame" x="0.0" y="44" width="208" height="208"/>
                                 <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saN-bR-W7j" userLabel="Purple">
-                                <rect key="frame" x="0.0" y="448" width="414" height="414"/>
+                                <rect key="frame" x="206" y="44" width="208" height="818"/>
                                 <color key="backgroundColor" red="0.68044549229999995" green="0.1578680277" blue="0.84710609910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-aR-PEn" userLabel="Teal2">
+                                <rect key="frame" x="0.0" y="355" width="208" height="196"/>
+                                <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="208" id="MZX-XK-Zbd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZwY-TK-3Sv" userLabel="Teal3">
+                                <rect key="frame" x="0.0" y="654" width="208" height="208"/>
+                                <color key="backgroundColor" red="0.48639786239999999" green="0.88015580179999997" blue="0.76469618080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="saN-bR-W7j" secondAttribute="trailing" id="1VX-ds-oVM"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Yi-Rs-q8X"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="Tcg-uR-i51" secondAttribute="leading" id="6w7-Bh-y6e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="saN-bR-W7j" secondAttribute="bottom" id="9kZ-7H-QcR"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="top" secondItem="Tcg-uR-i51" secondAttribute="bottom" id="JE3-iZ-eVW"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="saN-bR-W7j" secondAttribute="bottom" id="JaF-tV-GMn"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="width" secondItem="saN-bR-W7j" secondAttribute="height" multiplier="1:1" id="SdV-6D-y4u"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fEg-AH-267"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" constant="-414" id="h1k-aP-i7S"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="trailing" secondItem="Tcg-uR-i51" secondAttribute="trailing" id="kbd-ir-Q24"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tcg-uR-i51" secondAttribute="trailing" id="pZ2-bT-Adh"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="qXX-CD-NoB"/>
-                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qYx-mg-kAk"/>
-                            <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vwY-3Y-DC3"/>
+                            <constraint firstAttribute="bottom" secondItem="Tcg-uR-i51" secondAttribute="bottom" constant="644" id="0gh-RQ-ng8"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="top" secondItem="saN-bR-W7j" secondAttribute="top" id="785-cP-bLE"/>
+                            <constraint firstItem="saN-bR-W7j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="206" id="FNK-Ga-wle"/>
+                            <constraint firstItem="saN-bR-W7j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Qwd-tW-llu"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="trailing" secondItem="ZwY-TK-3Sv" secondAttribute="trailing" id="Ue4-IE-FKd"/>
+                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="654" id="fmT-bL-BUJ"/>
+                            <constraint firstItem="MDP-aR-PEn" firstAttribute="top" secondItem="Tcg-uR-i51" secondAttribute="bottom" constant="103" id="gwW-rk-MTN"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="trailing" secondItem="MDP-aR-PEn" secondAttribute="trailing" id="jkO-ZY-rJM"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jrS-OL-TUR"/>
+                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="loF-td-4Oa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="saN-bR-W7j" secondAttribute="bottom" id="mO2-Pn-GpX"/>
+                            <constraint firstItem="ZwY-TK-3Sv" firstAttribute="top" secondItem="MDP-aR-PEn" secondAttribute="bottom" constant="103" id="oJN-9h-9FQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="saN-bR-W7j" secondAttribute="trailing" id="ozX-yN-tae"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="MDP-aR-PEn" secondAttribute="leading" id="p8G-EQ-bot"/>
+                            <constraint firstItem="Tcg-uR-i51" firstAttribute="leading" secondItem="ZwY-TK-3Sv" secondAttribute="leading" id="tLX-8o-Llu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
